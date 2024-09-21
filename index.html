@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario ejercicio</title>
+    <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body>
+    <div>
+    <section>
+    <div>
+        <h2>Formulario de prueba</h2>
+    </div>
+    <label for="nombre">Nombre:</label>
+    <input type="text" id="nombre" name="nombre" placeholder="Escribe aqui tu nombre">
+    <!--<form action="contacto.php" method="get" enctype="">informacion
+       <input  id="" > <input type="name="
+       min="1"
+       max="100"
+       step="5">-->
+    <div>
+    <label for="apellido">Apellido:</label>
+    <input type="text" id="Apellido" name="Apellidos" placeholder="Escribe aqui tu Apellido">
+    <input type="Segundo apellido" placeholder="Segundo apellido">
+    <label for=""></label> <!--Nombre y apellidos-->
+    </section></div>
+
+    <label for="start">Fecha de nacimiento:</label>
+    <input type="date" id="start" name="trip-start" value="fecha" min="1999-01-01" max="2024-01-31" />
+    <!--<label for="fecha">Fecha de nacimiento</label>
+    <input type="fecha" id="fecha" name="fecha"> otra opcion-->
+    <!--Fecha de nacimiento-->
+    
+
+    </div>
+    <div>
+
+        <!--<p> seleccione género </p>-->
+        <div>
+        <p><strong>Selecione Genero</strong></p>
+         
+         <label for="hombre">Hombre</label>
+         <input type="radio" id="hombre" name="genero" value="hombre">
+
+         
+        <label for="mujer">Mujer</label>
+        <input type ="radio" id="mujer" name="genero" value="mujer">
+    </div><!--Generos-->
+    <div>
+        <p><strong>Se siente parte del club</strong></p>
+        <input type="radio" id="Si" name="afirmacion" value="SI">
+        <label for="SI">SI</label>
+        <input type="radio" id="NO" name="afirmacion" value="NO">
+        <label for="NO">NO</label>
+    </div>
+</section>
+<br>
+<div>
+    <input type="reset" value="Enviar">
+    <li class="button">
+        <button type="submit">Enviar datos</button>
+      </li>
+</div>
+<div>
+    <p>Datos de contacto:</p>
+    <label for="Numero de telefono"> Telefono:</label>
+    <input type="tel" id="tel" placeholder="123456789">
+    <div>
+    <label for="email">Correo electronico:</label>
+    <input type="email" id="email" name="email" placeholder="ejemplo@debase.com">
+</div>
+<div>
+    <label for="suscribir">Suscribirse al boletin</label>
+    <input type="checkbox" id="suscribir" name="suscribir" value="si" required>
+</div>
+    </div>
+
+<section> 
+    <h2>Formulario de prueba</h2>
+<p>¿Te ha robado la bicicleta?
+¡ESTAS DE SUERTE!
+</p>
+<div>
+    <label for="fecha">Fecha</label>
+    <input type="fecha" id="fecha" name="fecha"> 
+    <label for="hora">Hora </label>
+    <input type="hora" id="hora" name="hora">
+
+</div>
+<br>
+<div>
+    <input type="color" value="color" id="micolor">
+    <input type="range" id="volume" name="volume" min="0" max="11"  />
+    <label for="volume">Volumen</label> 
+    <input type="range" id="cowbell" name="cowbell" min="0" max="100" value="90" step="10" />
+    <label for="cowbell">Tonalidad</label>
+</div>
+<div>
+    <p>Tipo de bicicleta</p>
+ <input type ="radio" id="bici" name="bicicleta" value="bici">
+ <label for="bici">clasica</label>
+ 
+
+ <input type ="radio" id="montana" name="bicicleta" value="bici">
+ <label for="montana">Montaña</label>
+ 
+
+ <input type ="radio" id="carreras" name="bicicleta" value="bici">
+ <label for="carreras">Carreras</label>
+ 
+
+</div>
+
+</section>
+    
+</div>
+</body>
+
+</html>
